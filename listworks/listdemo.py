@@ -9,7 +9,7 @@
 #     print(exp[i])
 
 
-numbers=[10,12,15,16,17,18]
+#numbers=[10,12,15,16,17,18]
 
 # for num in numbers:
 #     if(num%2==0):
@@ -30,23 +30,13 @@ numbers=[10,12,15,16,17,18]
 # print(count)
 
 
-numbers=[2,1,-1,-5,4,-3,5,9,-6,-4,8,0,0]
-
-# p_count=0
-# n_count=0
-# for num in numbers:
-#     if num>0:
-#         p_count+=num
-#     if num<0:
-#         n_count+=num
-# print(p_count,n_count)
 
 
+#numbers=[2,1,-1,-5,4,-3,5,9,-6,-4,8,0,0]
 # n_count=0
 # p_count=0
 # z_count=0
 
-#
 # for num in numbers:
 #     if num>0:
 #         p_count+=1
@@ -56,12 +46,25 @@ numbers=[2,1,-1,-5,4,-3,5,9,-6,-4,8,0,0]
 #         z_count+=1
 # print(f"+ve count {p_count}, neg count {n_count},zero count {z_count}")
 
+#sum of numbers
+#num=[12,62,14,13,15,16,17]
+#sum=0
 
-num=[12,62,14,13,15,16,17]
-sum=0
-
-for n in num:
-    sum=sum+n
-print(sum)
+#for n in num:
+ #   sum=sum+n
+#print(sum)
 
 
+numbers=[2,1,-1,-5,4,-3,5,9,-6,-4,8,0,0]
+
+#sum of positve and negative numbers
+p_count=0
+n_count=0
+
+for num in numbers:
+    if num>0:
+        p_count+=num
+    if num<0:
+        n_count+=num
+
+print(f"sum of positive numbers {p_count}, sum of negative numbers {n_count}")

@@ -1,3 +1,5 @@
+#amstrong of a number
+
 num=153
 sum=0
 while(num!=0):
